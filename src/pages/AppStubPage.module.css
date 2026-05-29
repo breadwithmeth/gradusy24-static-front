@@ -1,0 +1,70 @@
+.page {
+  min-height: 100vh;
+  background:
+    linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    #0b0b0b;
+  background-size: 24px 24px;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.panel {
+  width: min(780px, 92vw);
+  border: 1px solid #2a2a2a;
+  background:
+    repeating-linear-gradient(45deg, transparent, transparent 9px, rgba(255, 255, 255, 0.03) 9px, rgba(255, 255, 255, 0.03) 10px),
+    #101010;
+  padding: clamp(1.2rem, 3vw, 3rem);
+}
+
+.kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #ff6a00;
+}
+
+.panel h1 {
+  margin: 0.6rem 0;
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  font-size: clamp(1.9rem, 8vw, 4.3rem);
+  color: #ffffff;
+}
+
+.panel p {
+  margin: 0 0 1rem;
+  color: #d8d8d8;
+  max-width: 44ch;
+  line-height: 1.6;
+}
+
+.button {
+  text-decoration: none;
+  min-height: 42px;
+  border: 1px solid #ff6a00;
+  color: #0b0b0b;
+  background: #ff6a00;
+  padding: 0.65rem 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: #ffffff;
+  border-color: #ffffff;
+  transform: translateY(-1px);
+}
