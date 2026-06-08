@@ -90,3 +90,72 @@
   color: #ffffff;
   font-size: 1.04rem;
 }
+
+.inlineLink {
+  color: #ff6a00;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.inlineLink:hover,
+.inlineLink:focus-visible {
+  color: #ffffff;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  width: min(100%, 680px);
+  padding-top: 0.5rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid #333333;
+  background: #0b0b0b;
+  color: #ffffff;
+  padding: 0.85rem 0.9rem;
+  font: inherit;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: 2px solid #ff6a00;
+  outline-offset: 0;
+  border-color: #ff6a00;
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.submitButton {
+  justify-self: start;
+  min-height: 48px;
+  border: 1px solid #ff6a00;
+  background: #ff6a00;
+  color: #0b0b0b;
+  cursor: pointer;
+  padding: 0.8rem 1.1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.submitButton:hover,
+.submitButton:focus-visible {
+  background: #ffffff;
+  border-color: #ffffff;
+}

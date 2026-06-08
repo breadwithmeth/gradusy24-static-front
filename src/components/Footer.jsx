@@ -8,6 +8,7 @@ function Footer() {
         <span>21+</span>
         <Link to="/privacy">Политика конфиденциальности</Link>
         <Link to="/offer">Пользовательское соглашение</Link>
+        <Link to="/delete-account">Удалить аккаунт</Link>
         <a href="mailto:contact@gradusy24.example">Контакты</a>
       </div>
     </footer>

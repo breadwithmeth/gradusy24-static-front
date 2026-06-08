@@ -89,6 +89,7 @@ function LandingPage() {
             <span>21+</span>
             <Link to="/privacy">PRIVACY</Link>
             <Link to="/offer">OFFER</Link>
+            <Link to="/delete-account">DELETE ACCOUNT</Link>
           </div>
         </div>
       </footer>
