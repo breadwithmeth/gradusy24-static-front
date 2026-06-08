@@ -42,6 +42,17 @@
   padding: clamp(1.2rem, 2.8vw, 2.2rem);
 }
 
+.content {
+  display: grid;
+  gap: 1.35rem;
+  max-width: 88ch;
+}
+
+.legalSection {
+  display: grid;
+  gap: 0.7rem;
+}
+
 .kicker {
   margin: 0;
   text-transform: uppercase;
@@ -54,15 +65,28 @@
 .title {
   margin: 0.6rem 0 1rem;
   text-transform: uppercase;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
   line-height: 0.95;
   font-size: clamp(1.8rem, 6vw, 3.8rem);
   font-weight: 900;
 }
 
+.sectionTitle {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.lead,
 .text {
   margin: 0;
   color: #d0d0d0;
   line-height: 1.7;
-  max-width: 70ch;
+}
+
+.lead {
+  color: #ffffff;
+  font-size: 1.04rem;
 }
