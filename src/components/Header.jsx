@@ -11,8 +11,8 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <Link to="/" className="logo" aria-label="Градусы24 на главную">
-          Градусы24
+        <Link to="/" className="logo" aria-label="Gradusy24 на главную">
+          Gradusy24
         </Link>
 
         <nav className="top-nav" aria-label="Основная навигация">

@@ -16,11 +16,11 @@ function AccountDeletionPage() {
   const [form, setForm] = useState(initialForm);
 
   const mailtoLink = useMemo(() => {
-    const subject = 'Запрос на удаление аккаунта Градусы24';
+    const subject = 'Запрос на удаление аккаунта Gradusy24';
     const body = [
       'Здравствуйте.',
       '',
-      'Прошу удалить мой аккаунт в приложении Градусы24.',
+      'Прошу удалить мой аккаунт в приложении Gradusy24.',
       '',
       `Имя: ${form.name || '-'}`,
       `Email для связи: ${form.email || '-'}`,
@@ -61,7 +61,7 @@ function AccountDeletionPage() {
 
           <div className={styles.content}>
             <p className={styles.lead}>
-              Чтобы запросить удаление аккаунта Градусы24, заполните данные ниже и отправьте письмо на
+              Чтобы запросить удаление аккаунта Gradusy24, заполните данные ниже и отправьте письмо на
               shrvse@drawbridge.kz. После отправки запроса команда проверит принадлежность аккаунта и обработает
               обращение.
             </p>
@@ -90,7 +90,6 @@ function AccountDeletionPage() {
                   type="text"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="Как к вам обращаться"
                 />
               </label>
 
@@ -101,7 +100,6 @@ function AccountDeletionPage() {
                   type="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="name@example.com"
                   required
                 />
               </label>
@@ -113,7 +111,6 @@ function AccountDeletionPage() {
                   type="tel"
                   value={form.phone}
                   onChange={handleChange}
-                  placeholder="+7..."
                   required
                 />
               </label>
@@ -125,7 +122,6 @@ function AccountDeletionPage() {
                   type="text"
                   value={form.accountId}
                   onChange={handleChange}
-                  placeholder="Если известно"
                 />
               </label>
 
@@ -135,7 +131,6 @@ function AccountDeletionPage() {
                   name="comment"
                   value={form.comment}
                   onChange={handleChange}
-                  placeholder="Дополнительная информация для проверки аккаунта"
                   rows="5"
                 />
               </label>

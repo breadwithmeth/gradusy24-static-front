@@ -6,7 +6,7 @@ function Hero() {
       <div className="container hero-grid">
         <div>
           <p className="section-kicker">00. ВХОД</p>
-          <h1>Градусы24 — сервис для взрослых пользователей</h1>
+          <h1>Gradusy24 — сервис для взрослых пользователей</h1>
           <p className="hero-subtitle">
             Удобный способ оформить заявку через приложение. Быстро, конфиденциально и без лишних действий.
           </p>

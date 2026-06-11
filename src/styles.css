@@ -10,15 +10,23 @@ body,
 }
 
 body {
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-  background: #0b0b0b;
-  color: #ffffff;
+  font-family: "Inter Tight", "Inter", system-ui, sans-serif;
+  background: #0a0a0a;
+  color: #fafafa;
+  letter-spacing: 0;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
   color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 
 @media (prefers-reduced-motion: reduce) {
