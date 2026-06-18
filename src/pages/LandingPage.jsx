@@ -31,14 +31,6 @@ function LandingPage() {
 
                 <AppDownloadButtons />
               </div>
-
-              <div className={styles.heroVisual}>
-                <img
-                  className={styles.heroImage}
-                  src="/assets/gradusy24-service-platform.png"
-                  alt="Сервис доставки Gradusy24: приложение, маршруты и операционная логистика"
-                />
-              </div>
             </div>
 
             <div className={styles.heroMetricPanel}>
@@ -102,24 +94,6 @@ function LandingPage() {
         <section className={`${styles.section} ${styles.sectionAlt}`}>
           <div className={styles.container}>
             <div className={styles.appBand}>
-              <div className={styles.phoneMockup} aria-hidden="true">
-                <div className={styles.phoneScreen}>
-                  <div className={styles.phoneTop} />
-                  <div className={styles.phoneRow}>
-                    <span className={styles.phoneLineWide} />
-                    <span className={styles.phoneLineAccent} />
-                  </div>
-                  <div className={styles.phoneRow}>
-                    <span className={styles.phoneLineWide} />
-                    <span className={styles.phoneLine} />
-                  </div>
-                  <div className={styles.phoneRow}>
-                    <span className={styles.phoneLineWide} />
-                    <span className={styles.phoneLineAccent} />
-                  </div>
-                </div>
-              </div>
-
               <div className={styles.sectionHeader}>
                 <p className={styles.sectionEyebrow}>Мобильное приложение</p>
                 <h2 className={styles.sectionTitle}>Главный интерфейс пользователя</h2>
@@ -200,7 +174,7 @@ function LandingPage() {
         <section className={styles.madeBy}>
           <div className={styles.container}>
             <p>
-              made by <span>DRAWBRIDGE</span>
+              by <span>DRAWBRIDGE</span>
             </p>
           </div>
         </section>
